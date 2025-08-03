@@ -6,7 +6,7 @@ import tensorflow as tf
 from PIL import Image
 
 st.set_page_config(
-    page_title="Flower Classifier 🌸",  # Appears in browser tab
+    page_title="Flower Classifier",  # Appears in browser tab
     page_icon="🌸",                     # Emoji OR path to image file
     layout="centered"
 )
@@ -43,4 +43,5 @@ if uploaded_file is not None:
     st.write(f"### 🔍 Confidence: {confidence:.2f}%")
 
     
+
 
