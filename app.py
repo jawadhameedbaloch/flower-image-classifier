@@ -5,6 +5,12 @@ import numpy as np
 import tensorflow as tf
 from PIL import Image
 
+st.set_page_config(
+    page_title="Flower Classifier 🌸",  # Appears in browser tab
+    page_icon="🌸",                     # Emoji OR path to image file
+    layout="centered"
+)
+
 # Load model
 model = tf.keras.models.load_model("flower_classifier.h5")
 
@@ -37,3 +43,4 @@ if uploaded_file is not None:
     st.write(f"### 🔍 Confidence: {confidence:.2f}%")
 
     
+
