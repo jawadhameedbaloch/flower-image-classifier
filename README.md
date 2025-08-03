@@ -48,7 +48,7 @@ Built using TensorFlow + Streamlit and deployed for public use.
 1. Clone the repository:
    ```bash
    git clone https://github.com/jawadhameedbaloch/flower-image-classifier.git
-   cd flower-classifier
+   cd flower-image-classifier
    ```
 
 2. Install dependencies:
